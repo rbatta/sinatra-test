@@ -1,0 +1,35 @@
+%html
+  %head
+    %link{ href:"/css/bootstrap.css", rel: "stylesheet" }
+    %link{ href: "/css/bootstrap-responsive.css", rel: "stylesheet" }
+    %style
+      body { background-image:url('/images/cream_pixels.png') }
+    %title Working project
+  %body
+    .container
+      .hero-unit
+        %h1 Whaddup!
+        %p This is my first Sinatra app.
+        %table{class: "table table-bordered"}
+          %tr
+            %th Header
+            %th And some value
+          %tr
+            %td item 1
+            %td omg dat value goes here. what if it's really long?
+        %a.btn.btn-primary.btn-large Button Does Nothing
+
+    // javascript goes here apparently
+    %script{:src => "/js/jquery.js"}
+    %script{:src => "/js/bootstrap-transition.js"}
+    %script{:src => "/js/bootstrap-alert.js"}
+    %script{:src => "/js/bootstrap-modal.js"}
+    %script{:src => "/js/bootstrap-dropdown.js"}
+    %script{:src => "/js/bootstrap-scrollspy.js"}
+    %script{:src => "/js/bootstrap-tab.js"}
+    %script{:src => "/js/bootstrap-tooltip.js"}
+    %script{:src => "/js/bootstrap-popover.js"}
+    %script{:src => "/js/bootstrap-button.js"}
+    %script{:src => "/js/bootstrap-collapse.js"}
+    %script{:src => "/js/bootstrap-carousel.js"}
+    %script{:src => "/js/bootstrap-typeahead.js"}
